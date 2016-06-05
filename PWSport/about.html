@@ -1,0 +1,196 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>About</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="Business_Blog Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
+Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyErricsson, Motorola web design" />
+<script type="applijewelleryion/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+<!-- Custom Theme files -->
+<link href='//fonts.googleapis.com/css?family=Roboto+Condensed:400,700' rel='stylesheet' type='text/css'>
+<link href='//fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+<link href="css/style.css" rel='stylesheet' type='text/css' />	
+<script src="js/jquery-1.11.1.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+
+<script>
+	$(document).ready(function(){
+		var res = {
+			loader: $('<div/>',{class: 'loader'}),
+			body: $('.lol')
+		}
+		$(window).on('load', function(){
+			$.ajax({
+				url: 'terbaru.php',
+				beforeSend: function(){
+					res.body.append(res.loader);
+				},
+				success: function(data){
+					res.body.html(data);
+					res.body.find(res.loader).remove();
+				}
+			});
+		});
+	});
+</script>
+</head>
+<body>
+	<!--start-main-->
+           <div class="header">
+		        <div class="header-top">
+			        <div class="container">
+						<div class="logo">
+							<a href="index.html"><img src="images/logo.png" alt="logo"</a>
+						</div>
+						<div class="search">
+							<form>
+								<input type="text" value="Search" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Search';}">
+								<input type="submit" value="">
+							</form>
+						</div>
+						<div class="social">
+							<ul>
+								<li><a href="#" class="facebook"> </a></li>
+								<li><a href="#" class="facebook twitter"> </a></li>
+								<li><a href="#" class="facebook chrome"> </a></li>
+								<li><a href="#" class="facebook yout"> </a></li>
+							</ul>
+						</div>
+						<div class="clearfix"></div>
+					</div>
+				</div>
+			
+<!--head-bottom-->
+<div class="head-bottom">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="index.html">Home</a></li>
+            <li><a href="basket.html">Basket</a></li>
+            <li><a href="bulutangkis.html">Bulutangkis</a></li>
+            <li class="dropdown">
+              <a href="sepakbola.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Sepakbola<span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                
+				<li><a href="berita.html">Klasemen</a></li>
+				 <li><a href="berita.html.html">Jadwal</a></li>
+				  <li><a href="singlepage.html">Top Skor</a></li>
+              </ul>
+            </li>
+			
+            </li>
+			   <li><a href="volley.html">Volley</a></li>
+			    <li><a href="tennis.html">Tennis</a></li>
+				 <li><a href="otomotif.html">Otomotif</a></li>
+				  <li><a href="about.html">About</a></li>
+				   <li><a href="contact.html">Contact</a></li>
+          </ul>
+          </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+</div>
+<!--head-bottom-->
+</div>	
+<!-- banner -->
+	
+</div>
+<!-- technology -->
+<div class="technology-1">
+	<div class="container">
+		<div class="col-md-9 technology-left">
+			<div class="business">
+				<h2 class="tittle">About</h2>
+
+
+		
+			  <div class="grid_3 grid_5">
+			
+				   <div class="bs-example bs-example-tabs" role="tabpanel" data-example-id="togglable-tabs">
+			<ul id="myTab" class="nav nav-tabs" role="tablist">
+			  <li role="presentation" class="active"><a href="#home" id="home-tab" role="tab" data-toggle="tab" aria-controls="home" aria-expanded="true">Home</a></li>
+			  <li role="presentation"><a href="#profile" role="tab" id="profile-tab" data-toggle="tab" aria-controls="profile">Profile</a></li>
+			  <li role="presentation" class="dropdown">
+				<a href="#" id="myTabDrop1" class="dropdown-toggle" data-toggle="dropdown" aria-controls="myTabDrop1-contents">Dropdown <span class="caret"></span></a>
+				<ul class="dropdown-menu" role="menu" aria-labelledby="myTabDrop1" id="myTabDrop1-contents">
+				  <li><a href="#dropdown1" tabindex="-1" role="tab" id="dropdown1-tab" data-toggle="tab" aria-controls="dropdown1">@sandy</a></li>
+				  <li><a href="#dropdown2" tabindex="-1" role="tab" id="dropdown2-tab" data-toggle="tab" aria-controls="dropdown2">@haidar</a></li>
+				  <li><a href="#dropdown2" tabindex="-1" role="tab" id="dropdown2-tab" data-toggle="tab" aria-controls="dropdown2">@ali</a></li>
+				</ul>
+			  </li>
+			</ul>
+			<div id="myTabContent" class="tab-content">
+			  <div role="tabpanel" class="tab-pane fade in active" id="home" aria-labelledby="home-tab">
+				<p></p>
+			  </div>
+			  <div role="tabpanel" class="tab-pane fade" id="profile" aria-labelledby="profile-tab">
+				<p>PW Sport didirikan pada Mei 2016.</p>
+			  </div>
+			  <div role="tabpanel" class="tab-pane fade" id="dropdown1" aria-labelledby="dropdown1-tab">
+				<p>Etsy mixtape wayfarers, ethical wes anderson tofu before they sold out mcsweeney's organic lomo retro fanny pack lo-fi farm-to-table readymade. Messenger bag gentrify pitchfork tattooed craft beer, iphone skateboard locavore carles etsy salvia banksy hoodie helvetica. DIY synth PBR banksy irony. Leggings gentrify squid 8-bit cred pitchfork. Williamsburg banh mi whatever gluten-free, carles pitchfork biodiesel fixie etsy retro mlkshk vice blog. Scenester cred you probably haven't heard of them, vinyl craft beer blog stumptown. Pitchfork sustainable tofu synth chambray yr.</p>
+			  </div>
+			  <div role="tabpanel" class="tab-pane fade" id="dropdown2" aria-labelledby="dropdown2-tab">
+				<p>Trust fund seitan letterpress, keytar raw denim keffiyeh etsy art party before they sold out master cleanse gluten-free squid scenester freegan cosby sweater. Fanny pack portland seitan DIY, art party locavore wolf cliche high life echo park Austin. Cred vinyl keffiyeh DIY salvia PBR, banh mi before they sold out farm-to-table VHS viral locavore cosby sweater. Lomo wolf viral, mustache readymade thundercats keffiyeh craft beer marfa ethical. Wolf salvia freegan, sartorial keffiyeh echo park vegan.</p>
+			  </div>
+			</div>
+		   </div>
+		  </div>
+
+			</div>
+		</div>
+		<!-- technology-right -->
+		<div class="col-md-3 technology-right-1">
+				<div class="blo-top">
+					<div class="tech-btm">
+					
+					</div>
+				</div>
+				<div class="blo-top">
+					<div class="tech-btm">
+					<h4>Sign up to our newsletter</h4>
+					
+						<div class="name">
+							<form>
+								<input type="text" placeholder="Email" required="">
+							</form>
+						</div>	
+						<div class="button">
+							<form>
+								<input type="submit" value="Subscribe">
+							</form>
+						</div>
+							<div class="clearfix"> </div>
+					</div>
+				</div>
+				<div class="blo-top1">
+					<div class="tech-btm lol" style="height:auto; position:relative;">
+						<h4>Berita terbaru </h4>
+					</div>
+				</div>
+			
+		</div>
+		<div class="clearfix"></div>
+		<!-- technology-right -->
+	</div>
+</div>
+<!-- technology -->
+
+<!-- footer-bottom -->
+			<div class="copyright">
+				<div class="container">
+					<p>© 2016 PW Sport. All rights reserved</a></p>
+				</div>
+			</div>
+	
+
+</body>
+</html>
